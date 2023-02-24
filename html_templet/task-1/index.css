@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6,
+.display-1,.display-2,.display-3,.display-4 {
+    font-weight: 700;
+    color: #092032;
+}
+
+a {
+    color:  #3ba366;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active{
+    color:black;
+}
+
+.homeimg{
+      background-image:url(./1.jpg) ;
+      height: 856px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+
+}
+.shiv{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 856px;
+}
+.fmaily{
+    padding-top:20%;
+}
+.paragraph{
+    padding-top:3%;
+    margin: -7px 9% 0 14%;;
+}
+.btn.btn-success.btn-block{
+    padding: 1% 6%;
+    margin: 5%;
+}
+
+/*----aubot-------*/
+
+#about{
+    margin: 0;
+    padding: 0;
+}
+
+.about container-fluid{
+    padding-top: 7rem;
+}
+
+.vl {
+    border-left: 4px solid green;
+    height: auto;
+}
+
+.text-warp{
+    border: 4px solid green;
+    background-color: green;
+    color:aliceblue;
+    width: 20rem;
+    padding: 1rem 3rem ;
+}
+.green{
+    text-align: center;
+    color:green;
+    font-size: 1vw;
+}
+.word{
+    text-align: center;
+}
+
+.lastimg{
+    background-image: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 1%;
+}
+hr{
+    width:20%;
+    justify-items: center;
+    padding: 0;
+    margin:auto;
+    border: none;
+    height: 12px;
+}
+.abhi{
+    height: 20px;
+    border-color: black !important;
+}

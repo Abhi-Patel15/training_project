@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top-nav{
+    background-color: antiquewhite;
+}
+.top-nav p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+a:hover{
+    color: orange!important;
+}
+a {
+    color: black;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+.homeimg{
+    background-image:url(./img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 56rem;
+}
+.classimg{
+    background-image:url(./img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+
+}
+.IMGLAST1{
+    background-image:url(./img/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.rgbas{
+    background: rgba(0, 0, 0, 0.4);
+}
+.mapIMG{
+    background-image: url(./img/4.webp);
+}
+.imgSection{
+    margin: 3% 8%;
+}
+
+.imgSection .img-fluid{
+    padding: 1%;
+}
+
+.imgSection img:hover{
+    filter: saturate(238);
+}
+
+.shortHR{
+    width: 5%;
+    border-bottom: 5px solid yellow;
+}
+.lastImgMap{
+    background-image: url(./img/4.webp);
+
+}
+.fl {
+    justify-content: flex-end;
+}
+.cad{
+    background:rgba(0, 0, 0, 0.4);
+}
+.bd{
+    background: rgba(223, 214, 214, 0.4);
+}
+.dd p i{
+    width:20%;
+}
